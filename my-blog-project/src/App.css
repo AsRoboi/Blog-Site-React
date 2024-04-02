@@ -19,11 +19,21 @@ button {
 
 h1{
   align-content: center;
-text-align: left;
+text-align: left  ;
 }
 
 h3, h4 {
   margin-bottom: 0;
+}
+
+.not-found-container {
+  background-color: red;
+  color: white; /* Text color to ensure visibility */
+  min-height: 100vh; /* Ensure the container takes up the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 50%;
 }
 
 nav {
